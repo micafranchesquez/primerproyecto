@@ -1,0 +1,128 @@
+ul{
+    list-style: none;
+    font-size: 0px;
+  }
+
+li{
+  display: inline-block;
+  width: 10%;
+  font-size: 25px;
+  background-color:rgb(232, 222, 248);
+  position: relative;
+  border: solid 1px white;
+
+}
+ul li ul{
+ position: absolute;
+ display: none;
+ width: 100%;
+}
+ul ul li{
+  display: block;
+  width: 100px;
+}
+ul li:hover ul {
+  display: block;
+}
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+  background-color: whitesmoke;
+}
+
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.padre{
+  height: 100vh;
+  font-size: 20px;
+  border: solid 5px grey;
+  display: flex; 
+  flex-direction: row;
+}
+
+.hijo{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: hotpink;
+}
+
+.hijo1{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(196, 75, 136);
+}
+
+.hijo2{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(156, 29, 93);
+}
+
+.hijo3{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(85, 24, 55);
+}
+
+.hijo4{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(104, 50, 77);
+}
+
+.hijo5{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(58, 14, 36);
+}
+
+.hijo6{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(77, 21, 49);
+}
+
+.hijo7{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(41, 18, 29);
+}
+
+.hijo8{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(70, 4, 37);
+}
+
+.hijo9{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(241, 12, 127);
+}
+
+.hijo10{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: rgb(228, 9, 119);
+}

@@ -1,0 +1,63 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.header__titulo{
+    color: salmon;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+a{
+    color: teal;
+}
+li{
+    color: teal;
+}
+
+a{
+    text-decoration: none;
+}
+
+.spanredsocial{
+    font-weight: bold; 
+    color: blueviolet;   
+}
+
+.micfrofronted__redsocialcentro{
+    text-align: center;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+p{
+    letter-spacing: 1px;
+}
+
+.espaciodelinea{
+    line-height: 90px;
+}
+
+
+div{
+    background-color: lightcyan;
+    width: 50;
+    height: 50;
+    font-size: 15px;
+    overflow: auto;
+    margin: 10px;
+    box-sizing: border-box;
+    border: dashed white;
+  }
+
+.carousel{
+   width: 400px;
+   margin: auto;
+   margin-top: 10px;
+}
+

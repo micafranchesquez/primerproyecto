@@ -1,0 +1,70 @@
+@import "mainestilo";
+@import "colores";
+
+
+header{
+@include estiloheader()
+    background-color: #d9fff5;
+    
+    img{
+     width: 130px; $medida1 -30;
+     height: 130px; ($medida1/2)+10;
+    }
+}
+
+/*CONDITIONALS*/
+section{
+    @if $fondo == falso {
+        background-color: cornsilk;
+    } @else{
+        background-color: aquamarine; 
+        
+    }
+}
+
+/*VARIABLES*/
+$medida1: 5px;
+$fondo: falso
+$lista: (10px, 20px, 50px);
+
+/*MIXIN*/
+@mixin estiloheader {
+    background-color: #d9fff5;
+    
+    img{
+     width: 130px; $medida1 -30;
+     height: 130px; ($medida1/2)+10;
+     grid-area: header
+    }  
+}
+
+@each $elementos in $lista {
+    .text-tamaño-#{$elementos}
+    font-size: $elementos;    
+}
+
+
+.nav{
+    background-color:#fae0e4;
+}
+
+.header__logo{
+    width: 100px;
+    height: 100px;
+}
+.header__titulo{
+    color: salmon;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+
+.micfrofronted__redsocialcentro{
+    text-align: center; 
+}
+
+.microfronted__espaciodelinea{
+    text-align: center;
+}
+
